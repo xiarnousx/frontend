@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <span
+    ><a routerLink="/"><mat-icon>home</mat-icon></a></span
+  >
+  <span class="spacer"></span>
+
+  <span *ngIf="isLoggedIn$ | async">{{ currentUser.fullName | uppercase }}</span>
+  <span class="spacer"></span>
+  <ul>
+    <li>
+      <a mat-button routerLink="/register" routerLinkActive="mat-accent" *ngIf="!(isLoggedIn$ | async)">Register Now</a>
+    </li>
+    <li>
+      <a mat-button (click)="onLogout()" routerLinkActive="mat-accent" *ngIf="isLoggedIn$ | async">
+        <mat-icon>exit_to_app</mat-icon><span>Logout</span>
+      </a>
+    </li>
+  </ul>
+</mat-toolbar>

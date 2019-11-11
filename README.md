@@ -4,24 +4,35 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+Run `npm i` to install dependencies.
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Users
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- hr@panel.com (The hr role)
+- staff@panel.com (The staff role)
+- student1@panel.com (The student role)
+- All above users are active and have `test` password
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### The Login Screen
 
-## Running unit tests
+![Alt](./docs/login-screen.png "Login Screen")
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### The Registration Screen
 
-## Running end-to-end tests
+![Alt](./docs/register-screen.png "The Register Screen")
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### The HR Screen
 
-## Further help
+![Alt](./docs/the-hr-screen.png "The HR Screen")
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### The Staff Screen
+
+![Alt](./docs/the-staff-screen.png "The Staff Screen")
+
+### The Student Screen
+
+![Alt](./docs/the-student-screen.png "The Student Screen")
